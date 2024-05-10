@@ -1,0 +1,26 @@
+div[data-testid="stExpander"] details:hover summary {
+    background-color: rgba(228, 0, 124, 0.1);
+    transform: scale(1.02);
+}
+
+div[data-testid="stExpander"] details summary p {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+div[data-testid="stExpander"] div[data-testid="stExpanderContent"] {
+    /* Your custom styles for the details section */
+    padding: 10px;
+    margin-top: 10px;
+    border: 2px solid orange;
+    border-radius: 5px;
+}
+:root {
+    --primary-color: #733116;
+    --background-color: #9CC3D5FF;
+    --secondary-background-color: #FAEBEFFF;
+    --text-color: #5F4B8BFF;
+}
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
